@@ -1,5 +1,5 @@
 // Contraseña fija para el ejemplo
-const correctPassword = 'ETMIV2025'; // Cambia esto por la contraseña que quieras
+const correctPassword = 'ETM/LENGIV2025'; // Cambia esto por la contraseña que quieras
 
 const loginButton = document.getElementById('login-button');
 const passwordInput = document.getElementById('password');
