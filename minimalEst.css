@@ -223,6 +223,11 @@ iframe{
         width: 23em;
         height: auto;
 }
+
+iframe{
+    width: 100%;
+    height: 17rem;
+}
 }
 
 table {
