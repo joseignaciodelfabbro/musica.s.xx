@@ -200,6 +200,17 @@ iframe{
     height: 30rem;
 
 }
+.audio{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.onefase{
+    width: 100%;
+    height: 30rem;
+}
 
 @media (max-width:750px){
     h1{
