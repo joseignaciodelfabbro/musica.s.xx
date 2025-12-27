@@ -15,6 +15,7 @@ body{
 
 
 }
+
 .cont1{
     display: block;
     width: 100%;
@@ -307,15 +308,24 @@ table {
     display: flex;
     margin-top:1em;
     margin-left: 0.5em;
-    justify-content: center;
+
+
+    flex-direction: column;
 
 }
 input{
     height: 2em;
     width: 20em;
+    margin: auto;
 }
+
+
+
+
 #login-button{
     background-color: rgb(119, 203, 161);
+     margin: auto; 
+     margin-top: 0.5rem;
 }
 #error-message{
     margin: 0.5em;
@@ -367,6 +377,39 @@ button{
     font-weight: bold;
     margin-left: 1em;
     font-size: 1.5em;
+
+}
+
+
+.formulario{
+    display: flex;
+    width: 25%;
+    height: auto;
+    padding: 0.5rem;
+    margin: auto;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+.formulario textarea{
+    width: 100%;
+    flex: 1;
+  box-sizing: border-box;
+    margin-top: 0.5rem;
+    margin: auto;
+}
+.formulario input{
+    width: 100%;
+    flex: 1;
+  box-sizing: border-box;
+}
+
+.formulario button{
+width: 50%;
+height: auto;
+  background-color: aquamarine;
+  margin: auto;
+ 
+  
 
 }
 
